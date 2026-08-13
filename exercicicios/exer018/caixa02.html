@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: bisque;
+
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: grey;
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a{
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav> a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+
+        }
+        article{
+            background-color: aliceblue;
+            padding: 5px;
+        }
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            background-color: aliceblue;
+            border-radius: 50%;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>esportes e tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>notiica sobre brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis beatae tempore rerum sit! Libero optio delectus nemo maxime perferendis! Magni a placeat quia nobis eius cum, et earum officiis perferendis!</p>
+                <aside>
+                    <p>artigo escrito por jose da silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por CR</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
